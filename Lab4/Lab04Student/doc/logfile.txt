@@ -1,0 +1,176 @@
+Project documentation
+<---- javadoc command: ---->
+c:\program files\java\jdk1.5.0\bin\javadoc.exe
+-sourcepath
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student
+-classpath
+C:\Program Files\BlueJ\lib\junit.jar
+-d
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc
+-source
+1.5
+-doctitle
+Lab04Student
+-windowtitle
+Lab04Student
+-author
+-version
+-nodeprecated
+-package
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibraryTest.java
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/PartialTitleMatch.java
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AuthorMatch.java
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/MatchMaker.java
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/TitleMatch.java
+<---- end of javadoc command ---->
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibraryTest.java...
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java...
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java...
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/PartialTitleMatch.java...
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AuthorMatch.java...
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/MatchMaker.java...
+Loading source file C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/TitleMatch.java...
+Constructing Javadoc information...
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibraryTest.java:618: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibraryTest
+    protected static MediaItem [] buildItems()
+                     ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibraryTest.java:645: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibraryTest
+    protected static AnytownLibrary buildLibrary(MediaItem [] items)
+                                                 ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:20: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibrary
+    private MediaItem[] items;
+            ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:47: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibrary
+    public boolean addItem(MediaItem item)
+                           ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:206: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibrary
+    public MediaItem [] findItems(String callNumber)
+           ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:285: cannot find symbol
+symbol  : class Book
+location: class AnytownLibrary
+    public Book[] renew(String borrower, GregorianCalendar currentDate)
+           ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:328: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibrary
+    private boolean canRenew(MediaItem item, String borrower,
+                             ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:354: cannot find symbol
+symbol  : class Book
+location: class AnytownLibrary
+    private GregorianCalendar renewBook(Book book)
+                                        ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:367: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibrary
+    public MediaItem [] getItems()
+           ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:429: cannot find symbol
+symbol  : class MediaItem
+location: class AnytownLibrary
+    public List<MediaItem> searchItems(String criterion)
+                ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java:30: cannot find symbol
+symbol  : class MediaItem
+location: interface Library
+    boolean addItem(MediaItem item);
+                    ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java:88: cannot find symbol
+symbol  : class Book
+location: interface Library
+    Book[] renew(String borrower, GregorianCalendar currentDate);
+    ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java:100: cannot find symbol
+symbol  : class MediaItem
+location: interface Library
+    MediaItem [] findItems(String callNumber);
+    ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java:107: cannot find symbol
+symbol  : class MediaItem
+location: interface Library
+    MediaItem [] getItems();
+    ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/Library.java:122: cannot find symbol
+symbol  : class MediaItem
+location: interface Library
+    List<MediaItem> searchItems(String criterion);
+         ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/MatchMaker.java:18: cannot find symbol
+symbol  : class MediaItem
+location: interface MatchMaker
+	List<MediaItem> search(String criterion, List<MediaItem> items);
+                                                      ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/MatchMaker.java:18: cannot find symbol
+symbol  : class MediaItem
+location: interface MatchMaker
+	List<MediaItem> search(String criterion, List<MediaItem> items);
+             ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/PartialTitleMatch.java:10: cannot find symbol
+symbol  : class MediaItem
+location: class PartialTitleMatch
+    public List<MediaItem> search(String criterion, List<MediaItem> items)
+                                                         ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/PartialTitleMatch.java:10: cannot find symbol
+symbol  : class MediaItem
+location: class PartialTitleMatch
+    public List<MediaItem> search(String criterion, List<MediaItem> items)
+                ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AuthorMatch.java:10: cannot find symbol
+symbol  : class MediaItem
+location: class AuthorMatch
+    public List<MediaItem> search(String criterion, List<MediaItem> items)
+                                                         ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AuthorMatch.java:10: cannot find symbol
+symbol  : class MediaItem
+location: class AuthorMatch
+    public List<MediaItem> search(String criterion, List<MediaItem> items)
+                ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/TitleMatch.java:10: cannot find symbol
+symbol  : class MediaItem
+location: class TitleMatch
+    public List<MediaItem> search(String criterion, List<MediaItem> items)
+                                                         ^
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/TitleMatch.java:10: cannot find symbol
+symbol  : class MediaItem
+location: class TitleMatch
+    public List<MediaItem> search(String criterion, List<MediaItem> items)
+                ^
+Standard Doclet version 1.5.0
+Building tree for all the packages and classes...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\AnytownLibrary.html...
+C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student/AnytownLibrary.java:240: warning - @return tag has no arguments.
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\AnytownLibraryTest.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\AuthorMatch.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\Library.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\MatchMaker.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\PartialTitleMatch.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\TitleMatch.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\package-frame.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\package-summary.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\package-tree.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\constant-values.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\serialized-form.html...
+Building index for all the packages and classes...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\overview-tree.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\index-all.html...
+Building index for all classes...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\allclasses-frame.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\allclasses-noframe.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\index.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\help-doc.html...
+Generating C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\stylesheet.css...
+24 warnings
+try to open: C:\Documents and Settings\Jen\My Documents\Franklin\COMP121\W08\Lab04\Lab04Student\doc\index.html

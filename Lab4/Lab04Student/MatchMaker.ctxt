@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=criterion\ items
+comment0.target=java.util.List\ search(java.lang.String,\ java.util.List)
+comment0.text=\r\n\ Finds\ all\ the\ items\ in\ the\ list\ that\ matches\ the\ criterion.\r\n\r\n\ @param\ \ criterion\ the\ string\ to\ be\ matched\r\n\ @param\ \ items\ the\ list\ to\ be\ searched\ for\ a\ match\r\n\ @return\tthe\ list\ of\ matching\ items\r\n
+numComments=1
