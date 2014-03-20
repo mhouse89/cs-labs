@@ -6,7 +6,7 @@ Used to store changes to CS class lab assinments so I can quickly recover from a
 
 Current Labs:
 
-	-Lab1
-	-Lab2
-	-Lab3
-	-**Lab4**
+-	Lab1
+-	Lab2
+-	Lab3
+-	**Lab4**
